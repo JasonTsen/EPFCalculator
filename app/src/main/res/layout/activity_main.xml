@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+
+    <Button
+        android:id="@+id/buttonDate"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+
+        android:background="#000000"
+        android:text="Calendar"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDate"
+        android:layout_marginTop="46dp"
+        android:text="Age is : "
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtBasicSaving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDate"
+        android:layout_marginTop="89dp"
+        android:text="Basic Saving :" />
+
+    <TextView
+        android:id="@+id/txtTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtBasicSaving"
+        android:text="Allow transfer not more than : " />
+
+</RelativeLayout>
